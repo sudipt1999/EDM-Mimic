@@ -107,7 +107,7 @@ $(function(){
     },
     "move": {
       "enable": true,
-      "speed": 5,
+      "speed": 50,
       "direction": "none",
       "random": true,
       "straight": false,
