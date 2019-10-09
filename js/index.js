@@ -7,13 +7,6 @@ $(function(){
     let isPlayingSomething = false
     let idList = []
 
-    const howlerList = {};
-
-    for (var i = 61; i > 0; i--) 
-    {
-        howlerList[i] = createSound(i + ".wav");
-
-    }
     function createSound (fileName)  {
         console.log(fileName)
         var sound = new Howl({
@@ -40,9 +33,8 @@ $(function(){
                 // Object.keys(howlerList).forEach(function(key) {
                 //     howlerList[key].stop();
                 // });
-                howlerList[key].play()
-            
-           
+            currentSound = createSound(key + ".wav")
+            currentSound.play()
         },
 
          keyup: function(event){
