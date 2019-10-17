@@ -19,11 +19,17 @@
 ### Technologies Used by This Project
 Feel free to check them out yourselves :+1:
 
-[Bootstrap v4.0.0-beta](https://github.com/twbs/bootstrap)
+**[Bootstrap v4.0.0-beta](https://github.com/twbs/bootstrap)**
 
-[Font Awesome 4.7.0](https://fontawesome.com/)
+Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery. 
 
-[howler.js](https://github.com/goldfire/howler.js)
+**[Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awesome/)**
+
+The internet's most popular icon toolkit has been redesigned and built from scratch. On top of this, features like icon font ligatures, an SVG framework, official NPM packages for popular frontend libraries like React, and access to a new CDN.
+
+**[howler.js](https://github.com/goldfire/howler.js)**
+
+[howler.js](https://howlerjs.com/) is an audio library for the modern web. It defaults to [Web Audio API](http://webaudio.github.io/web-audio-api/) and falls back to [HTML5 Audio](https://html.spec.whatwg.org/multipage/embedded-content.html#the-audio-element). This makes working with audio in JavaScript easy and reliable across all platforms.
 
 
 ### Contributing
